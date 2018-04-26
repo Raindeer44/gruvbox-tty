@@ -1,0 +1,23 @@
+# gruvbox-light theme
+# url github.com/raindeer44/gruvbox-tty
+# raindeer44 <github.com/raindeer44>
+# based on gruvbox.vim by morhetz <github.com/morhetz>
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0fbf1c7" #bg0
+    echo -en "\e]P8928374" #grey
+    echo -en "\e]P1cc241d" #darkred
+    echo -en "\e]P99d0006" #red
+    echo -en "\e]P298971a" #darkgreen
+    echo -en "\e]PA79740e" #green
+    echo -en "\e]P3d79921" #darkyellow
+    echo -en "\e]PBb57614" #yellow
+    echo -en "\e]P4458588" #darkblue
+    echo -en "\e]PC076678" #blue
+    echo -en "\e]P5b16286" #darkmagenta
+    echo -en "\e]PD8f3f71" #magenta
+    echo -en "\e]P6689d6a" #darkcyan
+    echo -en "\e]PE427b58" #cyan
+    echo -en "\e]P77c6f64" #fg4
+    echo -en "\e]PF3c3836" #fg1
+    clear #for background artifacting
+fi
